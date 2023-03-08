@@ -1,36 +1,37 @@
-///MTitik.java 23/03/01
+///Titik.java 23/02/01
 ///Penulis : Alfaya Sayyida
+///NIM : 24060121120009
 ///Deskripsi : Kelas yang berisi program utama yang memanfaatkan program Titik
 
 class Titik {
-	double absis;
-	double ordinat;
-	static int counterTitik;
+	private double absis;
+	private double ordinat;
+	private static int counterTitik;
 
-	Titik(){
+	public Titik(){
 		absis = 0;
 		ordinat = 0;
 		counterTitik++;
 
 	}
 
-	double getAbsis(){
+	public double getAbsis(){
 		return absis;
 	}
 
-	double getOrdinat(){
+	public double getOrdinat(){
 		return ordinat;
 	}
 
-	void setAbsis(double a){
+	public void setAbsis(double a){
 		absis = a;
 	}
 
-	void setOrdinat(double o){
+	public void setOrdinat(double o){
 		ordinat = o;
 	}
 
-	static int getCounterTitik(){
+	public static int getCounterTitik(){
 		return counterTitik;
 	}
 
